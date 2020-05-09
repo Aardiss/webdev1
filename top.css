@@ -1,0 +1,7 @@
+.top-line {
+  min-height: 415px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  background: #202123 url("/img/bg/lion-head-wide.jpg") right 50% top no-repeat;
+}
