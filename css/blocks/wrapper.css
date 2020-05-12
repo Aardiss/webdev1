@@ -1,3 +1,3 @@
-.wrapper index-wrapper {
-  background: url(/img/bg/splash.jpg)
+.index-wrapper {
+  background: url(/img/bg/splash.jpg) center top no-repeat;
 }
