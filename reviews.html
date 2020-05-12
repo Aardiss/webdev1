@@ -3,34 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="./css/mine.css">
   <title>Lion-bank</title>
 </head>
 <body>
   <div class="wrapper">
-    <header class="header">
-      <div class="container">
-      <a href="/" class="logo">
-        <img src="./img/logo.png" alt="Lion bank logo" class="logo-main">
-      </a>
-      <address class="contacts">
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        <div class="contacts__title">График работы</div>
-      </address>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-            <li class="menu__item menu__item_active"><a href="#" class="menu__link">Услуги</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+    <section class="top-line">
+      <div class="container top-line__container">
+        <header class="header header__service">
+           <div class="header__col">
+              <a href="/" class="logo">
+              <img src="./img/logo.png" alt="Lion bank logo" class="logo-main">
+              </a>
+             <nav class="menu">
+               <ul class="menu__list">
+                 <li class="menu__item"><a href="http://anastasia5.tmweb.ru" class="menu__link">Главная</a></li>
+                 <li class="menu__item"><a href="http://anastasia5.tmweb.ru/service.html" class="menu__link">Услуги</a></li>
+                 <li class="menu__item menu__item_active"><a href="#" class="menu__link">Отзывы</a></li>
+               </ul>
+             </nav>
+           </div>
+           <div class="header__col header__col--align--right">
+           <address class="contacts">
+             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+             <div class="contacts__title">График работы</div>
+             </address>
+           </div>
+        </header>
+        <h1 class="page-title">Отзывы</h1>
+        <nav class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="http://anastasia5.tmweb.ru" class="breadcrumbs__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item breadcrumbs__item--active">
+              <a href="#" class="breadcrumbs__link">Отзывы</a>
+            </li>
           </ul>
         </nav>
       </div>
-    </header>
+    </section>
 
-    <div class="reviews-content">
+<!--     <div class="reviews-content">
       <div class="motto">
       <div class="container">
         <h1 class="motto__title">Отзывы</h1>
@@ -42,8 +58,9 @@
           </ul>
         </nav>
       </div>
-      </div>
+      </div> -->
 
+    <main class="page page-reviews">
       <section class="reviews">
        <div class="container">
             <ul class="reviews__list">
@@ -135,35 +152,67 @@
               </ul>
             </div>
             </div>
+          </section>
 
-
+          <section class="mobile">
             <div class="online-bank">
               <div class="container">
                 <h2 class="online-bank__title">lionBank-Онлайн Простой способ зайти в банк</h2>
                 <img src="" alt="приложение на телефон" class="online-bank__image">
               </div>
             </div>
+          </section>
+
+          <section class="send-form">
+
             
+          </section>
 
 
        </div>
       </section>
+      </main>
 
-
-    </div>
-
-
-
-
-  </div>
-
-
-
+    <footer class="inner-footer">
+      <div class="container inner-footer__container">
+        <div class="footer">
+            <div class="footer__col">
+              <a href="" class="logo">
+                <img src="./img/logo.png" alt="logo" class="logo__main">
+              </a>
+                <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item"><a href="http://anastasia5.tmweb.ru" class="menu__link">Главная</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                  </ul>
+                </nav>
+            </div>
+            <div class="footer__col footer__col--align--right">
+              <ul class="media__list">
+                <li class="media__item media__item--icon--telegram">
+                 <a href="#" class="media__link"></a>
+                </li>
+                <li class="media__item media__item--icon--vk">
+                  <a href="#" class="media__link"></a>
+                </li>
+                <li class="media__item media__item--icon--fb">
+                  <a href="#" class="media__link"></a>
+                </li>
+                <li class="media__item media__item--icon--inst">
+                  <a href="#" class="media__link"></a>
+                </li> 
+              </ul>
+            </div>
+            <address class="contacts">
+              <div class="contacts_footer__title">Бесплатный звонок по России</div>
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            </address>
+          </div>
+        </div>
+    </footer>
+    </div> <!-- wrapper-->
 
 <!-- PUPA SUPER SEXY -->
-
-
-
-
 
 </body>
