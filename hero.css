@@ -1,9 +1,0 @@
-.hero {
-  margin-bottom: 169px;
-}
-.hero__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 600px;
-}

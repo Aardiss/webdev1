@@ -1,0 +1,25 @@
+.menu__list {
+  display: flex;
+  align-items: center
+}
+.menu__item {
+ margin-right: 47px;
+}
+.menu__item_active .menu__link {
+  color: #dfb56d;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__link {
+ font-size: 15px;
+ text-decoration: none;
+ letter-spacing: -0.2px;
+}
+.menu__link:hover {
+  color: #dfb56d;
+}
+.menu__date {
+  font-size: 15px;
+  margin-bottom: 18px;
+}

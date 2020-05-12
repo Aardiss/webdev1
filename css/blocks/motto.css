@@ -1,0 +1,24 @@
+ .motto {
+  width: 38%;
+ }
+ .motto__title {
+   font-size: 48px;
+   font-weight: bold;
+   line-height: 1.23;
+   margin-bottom: 20px;
+   width: 400px;
+ }
+ .motto__text {
+   font-size: 17px;
+   color: #dfb56d;
+   margin-bottom: 41px;
+   margin-left: 1px;
+ }
+  .motto-service__title {
+  font-size: 72px;
+  line-height: 1.2;
+  width: 252px;
+  font-weight: bold;
+  margin-bottom: 130px;
+}
+
