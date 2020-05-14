@@ -16,6 +16,7 @@
   margin-right: 0px;
 }
 .form__input::placeholder {
+  padding-top: 10px;
   color: #666;
 }
 .form__input--textarea {
@@ -26,9 +27,10 @@
   margin-bottom: 23px;
 }
 .form__controls-title {
-  width: 29%;
+  width: 32%;
   padding-left: 30px;
-  margin-right: 15px;
+  margin-right: 0px;
+  font-size: 18px;
 }
 .form__btns {
   display: flex;
