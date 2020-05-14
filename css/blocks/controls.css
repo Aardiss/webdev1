@@ -1,0 +1,9 @@
+.controls__elem {
+  cursor: pointer;
+}
+.controls__checkbox:checked ~ .controls__tag {
+ background: #c7e9d0;
+}
+.controls__checkbox {
+  display: none;
+}
