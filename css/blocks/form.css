@@ -23,8 +23,10 @@
 }
 .form__controls {
   display: flex;
+  margin-bottom: 35px;
 }
 .form__controls-title {
-  width: 40%;
+  width: 29%;
   padding-left: 30px;
+  margin-right: 15px;
 }

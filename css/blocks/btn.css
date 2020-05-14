@@ -28,11 +28,12 @@
 .btn--color--black:hover {
   background: #dfb56d;
 }
-
 .btn--color--grey {
   background: #8d8d8d;
 }
-
+.btn--color--grey:hover {
+  background: #202123;
+}
 .btn:hover {
   background: #d3a556;
   box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);

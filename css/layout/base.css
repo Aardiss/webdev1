@@ -35,6 +35,11 @@ body {
     display: block;
     max-width: 100%;
   }
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
  .wrapper {
    display: flex;
    flex-direction: column;
