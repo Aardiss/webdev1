@@ -7,3 +7,12 @@
 .controls__checkbox {
   display: none;
 }
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.controls__item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
