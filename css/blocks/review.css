@@ -27,6 +27,7 @@
 .review__user:after {
   content: url("/img/icons/socials/vk-colored.png");
   height: 29px;
+  padding-left: 8px;
 }
 .review__tags {
   display: flex;
