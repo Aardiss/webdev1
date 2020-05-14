@@ -1,12 +1,15 @@
 .review {
   display: inline-flex;
   flex-direction: column;
-  padding: 50px 30px;
+  padding: 38px 29px;
   background: #f4f5f5;
   border-radius: 4px;
+  margin-top: 37px;
 }
 .reviews {
   column-count: 2;
+  column-gap: 30px;
+  margin-bottom: 69px;
 }
 .reviews__item {
   margin-bottom: 20px;
@@ -23,6 +26,7 @@
   font-weight: bold;
   color: #4d76a1;
   margin-bottom: 11px;
+  padding-left: 22px;
 }
 .review__user:after {
   content: url("/img/icons/socials/vk-colored.png");
@@ -32,6 +36,7 @@
 .review__tags {
   display: flex;
   align-items: flex-start;
+  margin-left: 30px;
 }
 .review__title {
   font-size: 30px;
