@@ -22,12 +22,14 @@
 }
 .media__item--icon--vk .media__link:hover {
   background-image: url(/img/icons/socials/vk-hover.png);
+  transition: 1s;
 }
 .media__item--icon--telegram .media__link {
   background-image: url(/img/icons/socials/telegram.png);
 }
 .media__item--icon--telegram .media__link:hover {
   background-image: url(/img/icons/socials/telegram-hover.png);
+  transition: 1s;
 }
 /* .media__item--icon--fb .media__link {
   background-image: url(/img/icons/socials/facebook.png);
@@ -45,4 +47,5 @@
 }
 .media__item--icon--inst .media__link:hover {
   background-image: url(/img/icons/socials/instagram-hover.png);
+  transition: 1s;
 }

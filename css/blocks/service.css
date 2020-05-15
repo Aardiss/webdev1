@@ -8,9 +8,11 @@
 }
 .service:hover {
   background: #f4f5f5;
+  transition: 1s;
 }
 .service:hover .service__btn {
   background: #dfb56d;
+  transition: 1s;
 }
 .service__img {
   width: 41.5%;

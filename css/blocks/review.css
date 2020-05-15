@@ -39,6 +39,7 @@
 .review__user:hover {
   color: #4d76a1;
   text-decoration: underline;
+  transition: 1s;
 }
 .review__user:after {
   content: url("/img/icons/socials/vk-colored.png");

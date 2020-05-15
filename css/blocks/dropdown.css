@@ -3,6 +3,7 @@
 }
 .dropdown__contacts:hover .dropdown__menu {
   display: block;
+  transition: 1s;
 }
 .dropdown__menu {
   position: absolute;
@@ -11,10 +12,19 @@
   padding: 12px 17px;
   font-size: 13px;
   display: none;
-  margin-top: 6px;
+  margin-top: 9px;
   margin-left: 35px;
 }
 .dropdown__text {
   color: #1e1f20;
   font-weight: bold;
+}
+.dropdown__menu::before {
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
 }

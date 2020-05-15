@@ -20,6 +20,7 @@
 }
 .partners__item:hover {
 filter: grayscale(0);
+transition: 1s;
 }
 .partners__item:nth-child(4n) .partners__link {
  justify-content: flex-end;

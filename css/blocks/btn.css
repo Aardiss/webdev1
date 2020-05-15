@@ -27,12 +27,14 @@
 }
 .btn--color--black:hover {
   background: #dfb56d;
+  transition: 1s;
 }
 .btn--color--grey {
   background: #8d8d8d;
 }
 .btn--color--grey:hover {
   background: #202123;
+  transition: 1s;
 }
 .btn:hover {
   /* background: #d3a556; */
