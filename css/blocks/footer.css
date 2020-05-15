@@ -22,5 +22,6 @@
   justify-content: flex-end;
 }
 .reviews__footer {
-  
+  height: 100px;
+  margin-top: 43px;
 }
