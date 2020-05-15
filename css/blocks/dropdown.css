@@ -5,6 +5,10 @@
   display: block;
   transition: 1s;
 }
+.dropdown__contacts:hover .triangle {
+  display: block;
+  transition: 1s;
+}
 .dropdown__menu {
   position: absolute;
   background: #d2d1d1;
@@ -26,6 +30,7 @@
   border-bottom: 13px solid #d2d1d1;
   padding-top: 52px;
   margin-left: 127px;
+  display: none;
 }
 .dropdown__menu::before {
   content: "";

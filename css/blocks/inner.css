@@ -6,6 +6,10 @@
 .inner-section--bg--grey {
   background: #f4f5f5;
 }
+.inner-section--bg--grey--long {
+  background: #f4f5f5;
+  padding-bottom: 105px;
+}
 .inner-section__title {
   font-size: 48px;
   font-weight: bold;
