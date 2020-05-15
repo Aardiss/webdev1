@@ -33,10 +33,17 @@
   transition: 1s;
 }
 .media__item--icon--telegram .media__link {
-  background-image: url(/img/icons/socials/telegram.png);
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+  position: absolute;
+  width: 36px; height: 36px;
+  background: url('./img/icons/socials/sprites.png') -122px -10px;
 }
-.media__item--icon--telegram .media__link:hover {
-  background-image: url(/img/icons/socials/telegram-hover.png);
+.media__item--icon--telegram .media__link:hover::after {
+  background-position: -122px -66px;
   transition: 1s;
 }
 /* .media__item--icon--fb .media__link {
