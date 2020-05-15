@@ -19,6 +19,14 @@
   color: #1e1f20;
   font-weight: bold;
 }
+.triangle {
+  position: absolute;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 13px solid #d2d1d1;
+  padding-top: 52px;
+  margin-left: 127px;
+}
 .dropdown__menu::before {
   content: "";
   display: block;
