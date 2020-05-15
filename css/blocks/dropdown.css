@@ -1,0 +1,7 @@
+.dropdown__contacts {
+  position: relative;
+}
+/.dropdown__menu {
+  position: absolute;
+  background: #d2d1d1;
+}
