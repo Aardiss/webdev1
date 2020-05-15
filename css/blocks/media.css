@@ -3,6 +3,7 @@
   width: 187px;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .media__link {
   display: block;
@@ -17,11 +18,18 @@
 .media__item:last-child {
   margin-right: 0px;
 }
-.media__item--icon--vk .media__link {
-  background-image: url(/img/icons/socials/vk.png);
+.media__item--icon--vk .media__link::after {
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+  position: absolute;
+  width: 36px; height: 36px;
+  background: url('./img/icons/socials/sprites.png') -10px -122px;
 }
-.media__item--icon--vk .media__link:hover {
-  background-image: url(/img/icons/socials/vk-hover.png);
+.media__item--icon--vk .media__link:hover::after {
+  background-position: -122px -122px;
   transition: 1s;
 }
 .media__item--icon--telegram .media__link {
