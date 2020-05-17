@@ -1,7 +1,7 @@
 .dropdown__contacts {
   position: relative;
 }
-.dropdown__contacts:hover .dropdown__menu {
+.dropdown__contacts:hover .dropdown__menu  {
   display: block;
   transition: 1s;
   margin-left: 0;

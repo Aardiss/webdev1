@@ -18,6 +18,7 @@
 }
 .menu__link:hover {
   color: #dfb56d;
+  transition: 1s;
 }
 .menu__date {
   font-size: 15px;

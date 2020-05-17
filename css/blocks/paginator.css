@@ -15,7 +15,6 @@
   color: #fff;
   background: #353538;
   border-radius: 25px;
-  transition: 1s;
 }
 .paginator--theme--dark {
   color: #ffffff;
@@ -27,7 +26,6 @@
 .paginator--theme--dark .paginator__link:hover {
   background: #353538;
   border-radius: 25px;
-  transition: 1s;
 }
 .paginator__display {
   margin-right: 20px;
