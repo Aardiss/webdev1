@@ -4,10 +4,14 @@
 .dropdown__contacts:hover .dropdown__menu {
   display: block;
   transition: 1s;
+  margin-left: 0;
+  opacity: 1;
 }
 .dropdown__contacts:hover .triangle {
   display: block;
   transition: 1s;
+  margin-left: 65px;
+  opacity: 1;
 }
 .dropdown__menu {
   position: absolute;
@@ -15,9 +19,9 @@
   border-radius: 4px;
   padding: 12px 17px;
   font-size: 13px;
-  display: none;
+  opacity: 0;
   margin-top: 9px;
-  margin-left: 35px;
+  margin-left: -9999px;
 }
 .dropdown__text {
   color: #1e1f20;
@@ -29,8 +33,8 @@
   border-right: 13px solid transparent;
   border-bottom: 13px solid #d2d1d1;
   padding-top: 52px;
-  margin-left: 127px;
-  display: none;
+  margin-left: -9999px;
+  opacity: 0;
 }
 .dropdown__menu::before {
   content: "";

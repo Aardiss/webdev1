@@ -48,8 +48,7 @@
 }
 .review__tags {
   display: flex;
-  align-items: flex-start;
-  margin-left: 12px;
+  flex-wrap: wrap;
 }
 .review__title {
   font-size: 30px;
@@ -67,5 +66,5 @@
   font-weight: bolder;
 }
 .review__userdata {
-  margin-top: 10px;
+  padding-left: 10px;
 }
